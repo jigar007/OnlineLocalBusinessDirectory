@@ -1,0 +1,6 @@
+framework module Pods_BluePagesUITests {
+  umbrella header "Pods-BluePagesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

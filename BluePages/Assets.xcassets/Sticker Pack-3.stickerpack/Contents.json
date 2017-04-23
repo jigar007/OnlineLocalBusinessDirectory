@@ -1,0 +1,26 @@
+{
+  "stickers" : [
+    {
+      "filename" : "littleBluey.sticker"
+    },
+    {
+      "filename" : "email.sticker"
+    },
+    {
+      "filename" : "mobile.sticker"
+    },
+    {
+      "filename" : "phone.sticker"
+    },
+    {
+      "filename" : "website.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "small"
+  }
+}

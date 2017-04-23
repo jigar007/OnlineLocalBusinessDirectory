@@ -1,0 +1,50 @@
+UITabBar.appearance().tintColor = UIColor.white
+
+// Sets the default color of the background of the UITabBar
+UITabBar.appearance().barTintColor = UIColor(red: 245/255, green: 146/255, blue: 51/255, alpha: 1.0)
+
+UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.black], for: .normal)
+
+UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.white], for: .selected)
+
+//UITabBarItem = UIImage.imageWithColor(UIColor.yellowColor()).imageWithRenderingMode(.AlwaysOriginal)
+
+
+//searchBar.backgroundImage = UIImage()
+
+//searchBar.layer.borderColor = UIColor(red: 10/255, green: 96/255, blue: 1, alpha: 1.0).cgColor
+
+//////////
+
+///Navigation Problems
+
+//        navigationController?.navigationBar.addSubview(getAQuote)
+//        navigationController?.navigationBar.addSubview(logoImage)
+//
+//        let navigationWidth = navigationController?.navigationBar.frame.width
+//        let navigationHeight = navigationController?.navigationBar.frame.height
+//
+//        logoImage.layer.frame.size = CGSize(width: navigationHeight!-8, height: navigationHeight!-8)
+//        getAQuote.layer.frame.size.height = navigationHeight!-8
+//
+//        getAQuote.layer.position = CGPoint(x: navigationWidth!-(getAQuote.frame.width/2)-4, y: navigationHeight!/2)
+//        logoImage.layer.position = CGPoint(x: ((navigationHeight!-8)/2)+4, y: navigationHeight!/2)
+//
+//        navigationController!.navigationBar.tintColor = Color.whiteColor
+//        self.edgesForExtendedLayout = []
+//        self.navigationController?.navigationBar.isTranslucent = false
+//        navigationItem.title = "BLUE PAGES"
+//        navigationController?.navigationBar.addSubview(getAQuote)
+
+/////////////
+
+////////////
+////
+///
+    //   // let titleString = (tableObject.nameString).components(separatedBy: " ") //for seperating words
+////
+
+///Last ROW
+
+
+

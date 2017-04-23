@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1742884B5799BB44C8505F202DC65FB2 /* Pods-BluePagesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EACDAE228ADD080027712E2A21AFA35 /* Pods-BluePagesTests-dummy.m */; };
+		3DC783EA156F1A1B108F242193E45178 /* Pods-BluePagesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70CBBE7769D2121DFEBC33E2D59C194E /* Pods-BluePagesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4927FFB56AB4D11C53795869F2C0B173 /* Pods-BluePages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A16644FFFE378A5125EE42DCE96008 /* Pods-BluePages-dummy.m */; };
+		554A764D1860060DB5C15B56D2C1298A /* Pods-BluePagesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 413A6399B019CC8BD47A56095B9CE373 /* Pods-BluePagesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E9002628F48736630882BF019FE1FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A653D5C1CA14571303DDF4B9321466F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BE0A6F8923FE5E7F8F1624502A86AE4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CDA93A50C151012FC5F3B6EDAA0E718E /* Pods-BluePages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C4ECA6F152023CF427888A971151ACD /* Pods-BluePages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAC12DD8A66B6CEDFDBCC819097C418F /* Pods-BluePagesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12850108721C53D78B92F1DC42CEA491 /* Pods-BluePagesUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12850108721C53D78B92F1DC42CEA491 /* Pods-BluePagesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BluePagesUITests-dummy.m"; sourceTree = "<group>"; };
+		1B6304A6B3B9CCD2C5357F8037E605A9 /* Pods-BluePagesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BluePagesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FA0C39D648AF835A704427E489656C0 /* Pods-BluePagesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluePagesUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2E81F162587CCE75EAAD4EAA8FF6F626 /* Pods-BluePagesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluePagesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2EACDAE228ADD080027712E2A21AFA35 /* Pods-BluePagesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BluePagesTests-dummy.m"; sourceTree = "<group>"; };
+		324F5196D4651707A89233ECDC63665D /* Pods-BluePagesUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluePagesUITests-resources.sh"; sourceTree = "<group>"; };
+		32DD75836200D20321473C83099727BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C28128EAD52149A5705787F88C552B0 /* Pods-BluePages-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluePages-resources.sh"; sourceTree = "<group>"; };
+		413A6399B019CC8BD47A56095B9CE373 /* Pods-BluePagesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BluePagesTests-umbrella.h"; sourceTree = "<group>"; };
+		4D0A40248F6AC9FA3B655B21799DA2AC /* Pods_BluePagesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BluePagesTests.framework; path = "Pods-BluePagesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		544DE093E1F73002BABFD3F200B77E36 /* Pods-BluePagesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BluePagesTests.modulemap"; sourceTree = "<group>"; };
+		642AFE1EBA5E0F285999D9914DFBF001 /* Pods_BluePagesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BluePagesUITests.framework; path = "Pods-BluePagesUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F568BFF7AEC7A5BCA23F4C6243563A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC16141AB6DFCA378887FC5AA040AAC /* Pods-BluePagesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluePagesTests-resources.sh"; sourceTree = "<group>"; };
+		70CBBE7769D2121DFEBC33E2D59C194E /* Pods-BluePagesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BluePagesUITests-umbrella.h"; sourceTree = "<group>"; };
+		711B11A562B0DF6392E6F971E78B70B4 /* Pods-BluePages-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluePages-frameworks.sh"; sourceTree = "<group>"; };
+		74A16644FFFE378A5125EE42DCE96008 /* Pods-BluePages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BluePages-dummy.m"; sourceTree = "<group>"; };
+		7D6CCF88369FFF29EA29509C3E05C373 /* Pods-BluePages-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BluePages-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DB06468BDAA8610267B6E946BA9DDE9 /* Pods-BluePagesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluePagesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F54213F167916AE2AE2DBA03926F79D /* Pods-BluePagesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluePagesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84D30DCB83F92262AB629C3919F958EC /* Pods-BluePages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BluePages.modulemap"; sourceTree = "<group>"; };
+		8A1EEFB79589459E229F1AC0214BEB50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE8E5AFB0BA166185133D6E659F8856 /* Pods-BluePagesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluePagesTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C4ECA6F152023CF427888A971151ACD /* Pods-BluePages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BluePages-umbrella.h"; sourceTree = "<group>"; };
+		A391933BFDC9857AA773640A397FB103 /* Pods-BluePages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluePages.release.xcconfig"; sourceTree = "<group>"; };
+		A423B4D8579F67ACFA70A9FAFFCFA6FF /* Pods-BluePagesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BluePagesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADE30B2796120D2D528D19754AFF772A /* Pods-BluePagesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluePagesTests.release.xcconfig"; sourceTree = "<group>"; };
+		B138B3A84F88513C2625B901A693E5F6 /* Pods-BluePages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluePages.debug.xcconfig"; sourceTree = "<group>"; };
+		B493A4A000EE0EF6439B215334048A7F /* Pods-BluePagesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BluePagesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8F8064EA5659FECBE1427453F23930C /* Pods-BluePagesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BluePagesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BAF5CE1F0B2160549AA32025B2105AC6 /* Pods-BluePages-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BluePages-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D35D77D03C0C5785CF2945721821399C /* Pods-BluePagesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BluePagesUITests.modulemap"; sourceTree = "<group>"; };
+		EAA64E2E547039E06DD47ECD67CF7526 /* Pods_BluePages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BluePages.framework; path = "Pods-BluePages.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F9E670A6DB55F70A0622B81A24A9599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E9002628F48736630882BF019FE1FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1973A7637A20F1B42E28D44A89700DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0A6F8923FE5E7F8F1624502A86AE4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729799684BA93A090E4E4015A989E861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A653D5C1CA14571303DDF4B9321466F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2484305FA3A4EF50DAB9E49E2E7866E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA64E2E547039E06DD47ECD67CF7526 /* Pods_BluePages.framework */,
+				4D0A40248F6AC9FA3B655B21799DA2AC /* Pods_BluePagesTests.framework */,
+				642AFE1EBA5E0F285999D9914DFBF001 /* Pods_BluePagesUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2484305FA3A4EF50DAB9E49E2E7866E0 /* Products */,
+				C80AD0D1321CBF333C74546E595EE56F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95BF2635C7EC3367F53A1E3D360AA35C /* Pods-BluePagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				32DD75836200D20321473C83099727BF /* Info.plist */,
+				544DE093E1F73002BABFD3F200B77E36 /* Pods-BluePagesTests.modulemap */,
+				B8F8064EA5659FECBE1427453F23930C /* Pods-BluePagesTests-acknowledgements.markdown */,
+				A423B4D8579F67ACFA70A9FAFFCFA6FF /* Pods-BluePagesTests-acknowledgements.plist */,
+				2EACDAE228ADD080027712E2A21AFA35 /* Pods-BluePagesTests-dummy.m */,
+				8DE8E5AFB0BA166185133D6E659F8856 /* Pods-BluePagesTests-frameworks.sh */,
+				6EC16141AB6DFCA378887FC5AA040AAC /* Pods-BluePagesTests-resources.sh */,
+				413A6399B019CC8BD47A56095B9CE373 /* Pods-BluePagesTests-umbrella.h */,
+				7DB06468BDAA8610267B6E946BA9DDE9 /* Pods-BluePagesTests.debug.xcconfig */,
+				ADE30B2796120D2D528D19754AFF772A /* Pods-BluePagesTests.release.xcconfig */,
+			);
+			name = "Pods-BluePagesTests";
+			path = "Target Support Files/Pods-BluePagesTests";
+			sourceTree = "<group>";
+		};
+		A222DBC1A5ED58A7127DD372F6FDA6D0 /* Pods-BluePages */ = {
+			isa = PBXGroup;
+			children = (
+				8A1EEFB79589459E229F1AC0214BEB50 /* Info.plist */,
+				84D30DCB83F92262AB629C3919F958EC /* Pods-BluePages.modulemap */,
+				7D6CCF88369FFF29EA29509C3E05C373 /* Pods-BluePages-acknowledgements.markdown */,
+				BAF5CE1F0B2160549AA32025B2105AC6 /* Pods-BluePages-acknowledgements.plist */,
+				74A16644FFFE378A5125EE42DCE96008 /* Pods-BluePages-dummy.m */,
+				711B11A562B0DF6392E6F971E78B70B4 /* Pods-BluePages-frameworks.sh */,
+				3C28128EAD52149A5705787F88C552B0 /* Pods-BluePages-resources.sh */,
+				9C4ECA6F152023CF427888A971151ACD /* Pods-BluePages-umbrella.h */,
+				B138B3A84F88513C2625B901A693E5F6 /* Pods-BluePages.debug.xcconfig */,
+				A391933BFDC9857AA773640A397FB103 /* Pods-BluePages.release.xcconfig */,
+			);
+			name = "Pods-BluePages";
+			path = "Target Support Files/Pods-BluePages";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C80AD0D1321CBF333C74546E595EE56F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A222DBC1A5ED58A7127DD372F6FDA6D0 /* Pods-BluePages */,
+				95BF2635C7EC3367F53A1E3D360AA35C /* Pods-BluePagesTests */,
+				E2E10C71F06F0A3B01F25DDCAD65E213 /* Pods-BluePagesUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E2E10C71F06F0A3B01F25DDCAD65E213 /* Pods-BluePagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66F568BFF7AEC7A5BCA23F4C6243563A /* Info.plist */,
+				D35D77D03C0C5785CF2945721821399C /* Pods-BluePagesUITests.modulemap */,
+				1B6304A6B3B9CCD2C5357F8037E605A9 /* Pods-BluePagesUITests-acknowledgements.markdown */,
+				B493A4A000EE0EF6439B215334048A7F /* Pods-BluePagesUITests-acknowledgements.plist */,
+				12850108721C53D78B92F1DC42CEA491 /* Pods-BluePagesUITests-dummy.m */,
+				1FA0C39D648AF835A704427E489656C0 /* Pods-BluePagesUITests-frameworks.sh */,
+				324F5196D4651707A89233ECDC63665D /* Pods-BluePagesUITests-resources.sh */,
+				70CBBE7769D2121DFEBC33E2D59C194E /* Pods-BluePagesUITests-umbrella.h */,
+				7F54213F167916AE2AE2DBA03926F79D /* Pods-BluePagesUITests.debug.xcconfig */,
+				2E81F162587CCE75EAAD4EAA8FF6F626 /* Pods-BluePagesUITests.release.xcconfig */,
+			);
+			name = "Pods-BluePagesUITests";
+			path = "Target Support Files/Pods-BluePagesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E7F4376ECD3D1D47476011AE294EFC99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554A764D1860060DB5C15B56D2C1298A /* Pods-BluePagesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E9414263CC955D32AF0D98FA136B21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC783EA156F1A1B108F242193E45178 /* Pods-BluePagesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2915C9D2AC47F037D1F67CCE519B0E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA93A50C151012FC5F3B6EDAA0E718E /* Pods-BluePages-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25DE4DAF4AE1B1F426C1D3D16792F593 /* Pods-BluePagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF8DFB94F19EA18921982DF92E12167 /* Build configuration list for PBXNativeTarget "Pods-BluePagesUITests" */;
+			buildPhases = (
+				194857094D76EAC24CF70D3B6A06064C /* Sources */,
+				0F9E670A6DB55F70A0622B81A24A9599 /* Frameworks */,
+				E8E9414263CC955D32AF0D98FA136B21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BluePagesUITests";
+			productName = "Pods-BluePagesUITests";
+			productReference = 642AFE1EBA5E0F285999D9914DFBF001 /* Pods_BluePagesUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8442330405A44CA8EFA7326FB976E06B /* Pods-BluePages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8710F5787098B3EBAA14C65D7B181D02 /* Build configuration list for PBXNativeTarget "Pods-BluePages" */;
+			buildPhases = (
+				FFB3510CC515B50D21F6C2878407C117 /* Sources */,
+				1973A7637A20F1B42E28D44A89700DA3 /* Frameworks */,
+				F2915C9D2AC47F037D1F67CCE519B0E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BluePages";
+			productName = "Pods-BluePages";
+			productReference = EAA64E2E547039E06DD47ECD67CF7526 /* Pods_BluePages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A58CFA2AA38A40768D7B148B86D294C4 /* Pods-BluePagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F763C8914525AD0910720C00C2C799D /* Build configuration list for PBXNativeTarget "Pods-BluePagesTests" */;
+			buildPhases = (
+				0A51E19CFFCE67914E1DFF00B64DC958 /* Sources */,
+				729799684BA93A090E4E4015A989E861 /* Frameworks */,
+				E7F4376ECD3D1D47476011AE294EFC99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BluePagesTests";
+			productName = "Pods-BluePagesTests";
+			productReference = 4D0A40248F6AC9FA3B655B21799DA2AC /* Pods_BluePagesTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2484305FA3A4EF50DAB9E49E2E7866E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8442330405A44CA8EFA7326FB976E06B /* Pods-BluePages */,
+				A58CFA2AA38A40768D7B148B86D294C4 /* Pods-BluePagesTests */,
+				25DE4DAF4AE1B1F426C1D3D16792F593 /* Pods-BluePagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A51E19CFFCE67914E1DFF00B64DC958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1742884B5799BB44C8505F202DC65FB2 /* Pods-BluePagesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194857094D76EAC24CF70D3B6A06064C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC12DD8A66B6CEDFDBCC819097C418F /* Pods-BluePagesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB3510CC515B50D21F6C2878407C117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4927FFB56AB4D11C53795869F2C0B173 /* Pods-BluePages-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		37C8FB8979D06CEF4EA7A0D3050FC8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F54213F167916AE2AE2DBA03926F79D /* Pods-BluePagesUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BluePagesUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BluePagesUITests/Pods-BluePagesUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BluePagesUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C17ABA323CFCE5F44C264B40EA5AF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB06468BDAA8610267B6E946BA9DDE9 /* Pods-BluePagesTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BluePagesTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BluePagesTests/Pods-BluePagesTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BluePagesTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B3DF8A2F5A053F9F13AE3AFFA533395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE30B2796120D2D528D19754AFF772A /* Pods-BluePagesTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BluePagesTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BluePagesTests/Pods-BluePagesTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BluePagesTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9FECB549335D35C878E902582F573CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E81F162587CCE75EAAD4EAA8FF6F626 /* Pods-BluePagesUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BluePagesUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BluePagesUITests/Pods-BluePagesUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BluePagesUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5E5021A97786B02DE2B5384B7AF3B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B138B3A84F88513C2625B901A693E5F6 /* Pods-BluePages.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BluePages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BluePages/Pods-BluePages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BluePages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7ED79CD9C44A39A1E371F3FFA41B51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A391933BFDC9857AA773640A397FB103 /* Pods-BluePages.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BluePages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BluePages/Pods-BluePages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BluePages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8710F5787098B3EBAA14C65D7B181D02 /* Build configuration list for PBXNativeTarget "Pods-BluePages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E5021A97786B02DE2B5384B7AF3B35 /* Debug */,
+				E7ED79CD9C44A39A1E371F3FFA41B51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F763C8914525AD0910720C00C2C799D /* Build configuration list for PBXNativeTarget "Pods-BluePagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C17ABA323CFCE5F44C264B40EA5AF96 /* Debug */,
+				9B3DF8A2F5A053F9F13AE3AFFA533395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF8DFB94F19EA18921982DF92E12167 /* Build configuration list for PBXNativeTarget "Pods-BluePagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C8FB8979D06CEF4EA7A0D3050FC8A7 /* Debug */,
+				C9FECB549335D35C878E902582F573CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
