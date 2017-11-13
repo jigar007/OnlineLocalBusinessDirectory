@@ -3,9 +3,8 @@ Demo beta version code
 
 
 <b align="center">
-<img src="https://github.com/jigar007/Noodle-Restaurant-iOS-app/blob/master/Final_Screenshots/1.PNG" width="170" height="302">
+<img src="https://github.com/jigar007/OnlineLocalBusinessDirectory/blob/master/screenShots/Bluepages.PNG" width="192" height="256">
 </b>
 
-<img src="https://github.com/jigar007/Noodle-Restaurant-iOS-app/blob/master/Final_Screenshots/1.PNG" width="170" height="302">
-<img src="https://github.com/jigar007/Noodle-Restaurant-iOS-app/blob/master/Final_Screenshots/1.PNG" width="170" height="302">
-<img src="https://github.com/jigar007/Noodle-Restaurant-iOS-app/blob/master/Final_Screenshots/1.PNG" width="170" height="302">
+<img src="https://github.com/jigar007/OnlineLocalBusinessDirectory/blob/master/screenShots/1.PNG" width="170" height="302"> <img src="https://github.com/jigar007/OnlineLocalBusinessDirectory/blob/master/screenShots/2.PNG" width="170" height="302"> <img src="https://github.com/jigar007/OnlineLocalBusinessDirectory/blob/master/screenShots/3.PNG" width="170" height="302"> <img src="https://github.com/jigar007/OnlineLocalBusinessDirectory/blob/master/screenShots/4.PNG" width="170" height="302"> <img src="https://github.com/jigar007/OnlineLocalBusinessDirectory/blob/master/screenShots/5.PNG" width="170" height="302">
+
